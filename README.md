@@ -44,7 +44,7 @@ Para poder tener un panorama de las funcionalidades del sistema que se pueden im
 
 
 ## Idealizacion de usuarios del sistema
-![](https://i.imgur.com/FxYRDpd.png)
+![](https://i.imgur.com/YOBacmi.png)
 
 ![](https://i.imgur.com/6FwQiNr.png)
 
@@ -76,7 +76,8 @@ Para poder tener un panorama de las funcionalidades del sistema que se pueden im
 1. Se tendrá documentación del proceso de desarrollo del sistema.
 
 ### Descripcion de requerimientos funcionales 
-**RF 1**: Asistir a una actividad 
+**RF 1**: Asistir a una actividad
+
 Actor: asistente 
 
 Descripción: el sistema deberá permitir que el usuario seleccione una actividad previamente creada para así poder inscribirse a la misma. 
@@ -84,6 +85,7 @@ Descripción: el sistema deberá permitir que el usuario seleccione una activida
 Prioridad : alta 
 
 **RF 2**: Organizar una actividad 
+
 Actor: todos
 
 Descripción: el Sistema permite a un usuario crear un evento. Si es dueño de un local se le permite crear un evento relacionado al mismo. Si es una persona solo podrá crear actividades a locales de otros dueños o lugares públicos.
@@ -91,6 +93,7 @@ Descripción: el Sistema permite a un usuario crear un evento. Si es dueño de u
 Prioridad : alta  
 
 **RF 3**: Ingreso de presupuesto 
+
 Actor: persona
 
 Descripción: el usuario podrá ingresar un monto de dinero y se le permitirá seleccionar si el mismo está destinado a una actividad particular o a un rango de tiempo que deberá definir.
@@ -98,6 +101,7 @@ Descripción: el usuario podrá ingresar un monto de dinero y se le permitirá s
 Prioridad: alta 
 
 **RF 4**: ingreso de gastos en una actividad 
+
 Actor: persona 
 
 Descripción : el sistema permitirá al usuario seleccionar una tarea a la que ya asistió o está asistiendo al momento de la operación. Para así permitir que ingrese un gasto realizado en la misma. Dicho gasto debe tener un monto y descripción. Se podrá seleccionar de qué categoría es (bebida, comida, entrada, etc) 
@@ -105,6 +109,7 @@ Descripción : el sistema permitirá al usuario seleccionar una tarea a la que y
 Prioridad: alta 
 
 **RF 5**: Puntuar una actividad asistida
+
 Actor: persona
 
 Descripción: el sistema admitirá que un usuario seleccione una tarea a la que ya asistió, para así permitir que el mismo la califique. La calificación va a ser un número en el rango de 0 a 5 estrellas. También se permitirá dejar un comentario de no más de 100 caracteres. 
@@ -112,6 +117,7 @@ Descripción: el sistema admitirá que un usuario seleccione una tarea a la que 
 Prioridad : media 
 
 **RF 6**: Mostrar gastos 
+
 Actor: persona 
 
 Descripción: el sistema mostrará al usuario un listado de gastos. Los formatos de listado serán 2, mostrar todos los gastos de forma individual con referencia a que actividad está asociado y por otro lado se podrá listar las actividades y su suma de gastos, permitiendo acceder a la actividad para ver el detalle de gastos. 
@@ -119,6 +125,7 @@ Descripción: el sistema mostrará al usuario un listado de gastos. Los formatos
 Prioridad: media 
 
 **RF 7**: Graficar en función de parámetros 
+
 Actor: persona 
 
 Descripción: el sistema deberá mostrar una gráfica según los siguientes posibles parámetros :
@@ -130,6 +137,7 @@ Cantidad de actividades a las que se asistió en función del tiempo (meses)
 Prioridad: baja 
 
 **RF 8**: listar actividades según calificaciones 
+
 Actor : persona 
 
 Descripción: el sistema listará las actividades a las que usuario asistió, ordenandolas en función de las calificaciones de las mismas. Las de mayor calificación irán primero. 
@@ -138,6 +146,7 @@ Prioridad: media
 
 
 **RF 9**: Alerta de presupuesto  bajo 
+
 Actor: persona 
 
 Descripción: el sistema deberá notificar al usuario cuando se halla gastado un 80% del presupuesto fijado para una actividad o un rango de tiempo 
@@ -145,6 +154,7 @@ Descripción: el sistema deberá notificar al usuario cuando se halla gastado un
 Prioridad: media 
 
 **RF 10**:  Listado de actividades de interés 
+
 Actor: persona 
 
 Descripción: el sistema deberá mostrar al usuario las actividades próximas a realizarse que el mismo determine que puede ser de interés del usuario. Esto se realizará en función de actividades pasadas. 
@@ -152,6 +162,7 @@ Descripción: el sistema deberá mostrar al usuario las actividades próximas a 
 Prioridad: media 
 
 **RF11**: Reparto de gastos entre participantes 
+
 Actor: persona 
 
 Descripción: se permitirá que los asistentes de una determinada actividad repartan los gastos que se realizaron en la misma. Se podrá repartir el gasto total o seleccionar individualmente cada gasto y asignalro a uno o varios asistentes. 
